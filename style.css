@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Yuji+Mai&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation start */
+.nav-content{
+    border: 1px solid;
+    background-color:rgb(235, 241, 143);
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    position: sticky;
+    top: 0px; 
+}
+#logo{
+    display: inline;
+    margin-right: 150px;
+}
+#nav-home{
+    display: inline;
+}
+#icon{
+    display: inline;
+   margin-right: 20px;
+   margin-left: 50px;
+}
+.logoname{
+    display: inline;
+    color: rgb(8, 8, 8);
+}
+#nav-home a{
+    padding: 0px 10px;
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* navigation end */
+
+/* position start */
+
+.container{
+    height: 400px;
+    width: 400px;
+    margin: 3% auto;
+}
+
+.first-font{
+    margin: 5px auto;
+    border: 4px solid;
+    padding: 4px;
+    font-family: "Montserrat Underline", sans-serif;    background-color: rgb(192, 226, 255);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.second-font{
+    margin: 5px auto;
+    border: 4px solid;
+    padding: 4px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(240, 240, 195);
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+.third-font{
+    margin: 5px auto;
+    border: 4px solid;
+    padding: 4px;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
